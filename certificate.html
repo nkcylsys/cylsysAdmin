@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <title>Dashboard</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <link href="assets/css/bootstrap.v5.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/test.css" rel="stylesheet">
+    <!-- <link href="assets/css/main.scss" rel="stylesheet">  -->
+    <link href="assets/css/form-outline.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+    <!--Header start-->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+        <div class="d-flex align-items-center justify-content-between"><i class="toggle-sidebar-btn pe-2">
+                <center><img src="assets/images/logo.png" alt="" width="100%"></center>
+            </i></div>
+        <nav class="header-nav ms-auto">
+            <ul class="d-flex align-items-center">
+                <li class="nav-item dropdown pe-4"><a class="nav-link dropdown-toggle text-white small" href="#"
+                        id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">User</a>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li><a class="dropdown-item d-flex align-items-center" href="users-profile.html"><i
+                                    class="fa fa-sign-out"></i> <span>Logout</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Header end-->
+    <!--artical start-->
+    <!--Sidebar start-->
+    <!--left panel start-->
+    <div cy-include-html="assets/includes/left-panel.html"></div>
+    <!--left panel end-->
+    <!--Sidebar end-->
+    <!--Main start-->
+    <main id="main" class="main">
+        <section class="section">
+            <!--Table code start-->
+            <div class="row">
+                <h5>Data Table</h5>
+                <div class="col-md-12 text-end">
+                    <a href="applyPost.html" class="btn btn-primary btn-blue mb-3"><i class="fa fa-plus"></i>Add New
+                        Client</a>
+                </div>
+
+                <hr>
+                <div class="col-md-12">
+                    <table id="example2" class="table">
+                        <thead>
+
+                            <tr>
+                                <th scope="col">Title</th>
+                                <th scope="col">Link</th>
+                                <th scope="col">Description</th>
+                                <th scope="col">Certificates Image</th>
+
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="col">ISO 9001:2008 Certification</th>
+                                <td><a href="">Uti.com</a></td>
+                                </td>
+                                <td> Excellent work.....</td>
+                                <td><img src="assets/images/uti_logo.png" width="30%"> </td>
+
+
+                            </tr>
+                            <tr>
+                                <th scope="row">Cylsys Software Solution Pvt. Ltd. - Revolutionizing Work Places
+                                </th>
+                                <td><a href="">Cylsys.com</a></td>
+                                </td>
+                                <td>These guys are....</td>
+                                <td><img src="assets/images/abcd.jpg" width="30%"> </td>
+
+                            </tr>
+                            <tr>
+                                <th scope="row">ISO 9001:2008 Certification</th>
+                                <td><a href="">Hdfc.com</a></td>
+                                </td>
+                                <td>Excellent Work</td>
+                                <td><img src="assets/images/abcd.jpg" width="30%"> </td>
+                            </tr>
+                            <tr>
+                                <th scope="row">ISO 9001:2008 Certification
+                                </th>
+                                <td><a href="">Kotak.com</a></td>
+                                </td>
+                                <td>Great Work</td>
+                                <td><img src="assets/images/abcd.jpg" width="30%"> </td>
+
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <!--Table code end-->
+        </section>
+
+
+    </main>
+    <!--Main end-->
+    <!--artical end-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/cy.js"></script>
+    <script src="assets/js/newscript.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width,initial-scale=1" name="viewport">
+    <title>Dashboard</title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+    <link href="assets/css/bootstrap.v5.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/form-outline.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">
+    
+
+</head>
+
+<body>
+    <!--Header start-->
+    <header id="header" class="header fixed-top d-flex align-items-center">
+        <div class="d-flex align-items-center justify-content-between"><i class="toggle-sidebar-btn pe-2"><img
+                    src="assets/images/logo.png" alt="" width="100%"></i></div>
+        <nav class="header-nav ms-auto">
+            <ul class="d-flex align-items-center">
+                <li class="nav-item dropdown pe-4"><a class="nav-link dropdown-toggle text-white small" href="#"
+                        id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">User</a>
+                    <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+                        <li><a class="dropdown-item d-flex align-items-center" href="users-profile.html"><i
+                                    class="fa fa-sign-out"></i> <span>Logout</span></a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <!--Header end-->
+    <!--artical start-->
+    <!--Sidebar start-->
+    <!--left panel start-->
+    <div cy-include-html="assets/includes/left-panel.html"></div>
+    <!--left panel end-->
+    <!--Sidebar end-->
+    <!--Main start-->
+    <main id="main" class="main">
+        <section class="section">
+      
+            <div class="row">
+                <h5><b>Post & jobs</b></h5><br><br>
+                <hr><br><br>
+
+                <div class="col-md-4 mb-3 form-outline">
+                    <input type="text" class="form-input" placeholder=" ">
+                    <label for="" class="form-label">Position</label>
+                </div>
+                <div class="col-md-4 mb-3">
+                    
+                    <select class="form-select">
+                        <option value="">Select</option>
+                        <option value="Mumbai">Mumbai</option>
+                        <option>1</option>
+                        <label for="" class="form-label">Position</label>
+                    </select>
+                    <p>Location</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <select class="form-select">
+                        <option>1 To 2 Year</option>
+                        <option>2 To 3 Year</option>
+                    </select>
+                    <p>Experience</p>
+                </div>
+                <div class="col-md-4 mb-3 form-outline">
+                    <input type="text" class="form-input" placeholder=" ">
+                    <label for="" class="form-label">Joining period</label>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <select class="form-select">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                    <p>Number of position</p>
+                </div>
+                <div class="col-md-4 mb-3">
+                    <select class="form-select">
+                        <option>Control</option>
+                        <option>1</option>
+                    </select>
+                    <p>Payroll</p>
+                </div>
+                <div class="col-md-4 mb-3 form-outline">
+                    <input type="text" class="form-input" placeholder=" ">
+                    <label for="" class="form-label">Mail Id</label>
+                </div>
+                <div class="col-md-4 mb-3 form-outline">
+                    <input type="number" class="form-input" placeholder=" ">
+                    <label for="" class="form-label">Phone Number</label>
+                </div>
+                <div class="col-md-4 mb-3 form-outline">
+                    <input type="text" class="form-input" placeholder=" ">
+                    <label for="" class="form-label">Budger</label>
+                </div>
+                <div class="col-md-4 mb-3 form-outline">
+                    <input type="date" class="form-input" placeholder=" ">
+                    <label for="" class="form-label">Valid Till</label>
+                </div>
+                <div class="col-md-8 mb-3 form-outline">
+                    <input type="textarea" class="form-input" placeholder=" ">
+                    <label for="" class="form-label">Description</label>
+                </div>
+                <div class="col-md-4">
+                    <button type="submit" class="btn btn-primary btn-blue">Save</button>
+                </div>
+            </div>
+
+            <!--Table code end-->
+        </section>
+
+    </main>
+    <!--Main end-->
+    <!--artical end-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/cy.js"></script>
+    <script src="assets/js/newscript.js"></script>
+</body>
+
+</html>

@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1" name="viewport">
-    <title>Dashboard</title>
+    <title>Testimonial</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
     <link href="assets/css/bootstrap.v5.min.css" rel="stylesheet">
@@ -11,7 +11,7 @@
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/form-outline.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet">  
   </head>
   <body>
     <!--Header start-->
@@ -47,46 +47,51 @@
     <!--Main start-->
     <main id="main" class="main">
       <section class="section">
-        <!--Table code start-->
-       <div class="row">
-          <h5>Home</h5>
-          <hr>
-          <div class="col-md-12">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">First</th>
-                  <th scope="col">Last</th>
-                  <th scope="col">Handle</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
-                </tr>
-              </tbody>
-            </table>
+        <!---Form code start-->
+        <h5>Add Testimonial</h5>
+        <hr>
+        <div class="row mt-4">
+          <div class="col-md-12 mb-3 form-outline">
+            <input type="text" class="form-input" placeholder=" ">
+            <label for="" class="form-label" id="l1">Client Name</label>
+          </div>
+          <div class="col-md-12 mb-3 form-outline">
+            <select class="form-select">
+              <option value="">Select</option>
+              <option>Mumbai</option>
+              <option>Madhya Pradesh</option>
+            </select>
+            <label class="lablenew">Project name</label>
+          </div>
+          <div class="col-md-12 mb-3 form-outline">
+            <select class="form-select">
+              <option value="">Select</option>
+              <option>1</option>
+              <option>2</option>
+              <option>3</option>
+              <option>4</option>
+              <option>5</option>
+            </select>
+            <label class="lablenew">Rating</label>
+          </div>
+          <div class="col-md-12 mb-4">
+            <label>Upload Image</label>
+            <label for="formFile" class="form-label">Default file input example</label>
+            <input class="form-control" type="file" id="formFile">
+          </div>
+          <div class="col-md-12 mb-3 form-outline">
+            <textarea class="form-input" placeholder=" "></textarea>
+            <label for="" class="form-label" id="l1">Discription</label>
           </div>
         </div>
-        <!--Table code end-->
+
+        <div class="row">
+          <div class="col-md-12 text-end">
+            <a href="testimonial.html" class="btn btn-primary btn-blue mb-3">Save</a>
+          </div>
+        </div>
+        <!--Form code end-->
       </section>
-      
     </main>
     <!--Main end-->
     <!--artical end-->

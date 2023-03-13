@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <meta content="width=device-width,initial-scale=1" name="viewport">
-    <title>Dashboard</title>
+    <title>Add Team</title>
     <meta content="" name="description">
     <meta content="" name="keywords">
     <link href="assets/css/bootstrap.v5.min.css" rel="stylesheet">
@@ -11,7 +11,7 @@
     <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
     <link href="assets/css/main.css" rel="stylesheet">
     <link href="assets/css/form-outline.css" rel="stylesheet">
-    <link href="assets/css/responsive.css" rel="stylesheet">
+    <link href="assets/css/responsive.css" rel="stylesheet"> 
   </head>
   <body>
     <!--Header start-->
@@ -47,46 +47,21 @@
     <!--Main start-->
     <main id="main" class="main">
       <section class="section">
-        <!--Table code start-->
-       <div class="row">
-          <h5>Home</h5>
-          <hr>
-          <div class="col-md-12">
-            <table class="table">
-              <thead>
-                <tr>
-                  <th scope="col">#</th>
-                  <th scope="col">First</th>
-                  <th scope="col">Last</th>
-                  <th scope="col">Handle</th>
-                </tr>
-              </thead>
-              <tbody>
-                <tr>
-                  <th scope="row">1</th>
-                  <td>Mark</td>
-                  <td>Otto</td>
-                  <td>@mdo</td>
-                </tr>
-                <tr>
-                  <th scope="row">2</th>
-                  <td>Jacob</td>
-                  <td>Thornton</td>
-                  <td>@fat</td>
-                </tr>
-                <tr>
-                  <th scope="row">3</th>
-                  <td>Larry</td>
-                  <td>the Bird</td>
-                  <td>@twitter</td>
-                </tr>
-              </tbody>
-            </table>
+        <h5>Add Team </h5>
+        <hr>
+        <!---Form code start-->
+          <div class="row">
+            <div class="col-md-12 mb-3">
+              <label>Upload Team Image</label>
+              <label for="formFile" class="form-label">Default file input example</label>
+              <input class="form-control" type="file" id="formFile">
           </div>
-        </div>
-        <!--Table code end-->
+          </div>
+          <div class="col-md-12 text-end">
+            <a href="team.html" class="btn btn-primary btn-blue mb-3">Save</a>
+          </div>
+          <!--Form code end-->
       </section>
-      
     </main>
     <!--Main end-->
     <!--artical end-->

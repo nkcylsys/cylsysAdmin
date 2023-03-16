@@ -2,6 +2,7 @@
     .dropdown-menu {
         width: 100vw !important;
     }
+    .w-30{width: 100%;}
 }
 
 @media (min-width: 768px) {

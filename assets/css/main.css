@@ -460,4 +460,8 @@ input:checked + .slider:before {
   background: white;
   padding: 0px 5px;
   text-align: center;
+}
+
+.w-30 {
+  width: 30%;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width,initial-scale=1" name="viewport">
+  <title>Dashboard</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+  <link href="assets/css/bootstrap.v5.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/css/main.css" rel="stylesheet">
+  <link href="assets/css/form-outline.css" rel="stylesheet">
+  <link href="assets/css/responsive.css" rel="stylesheet">
+</head>
+
+<body>
+  <!--Header start-->
+  <header id="header" class="header fixed-top d-flex align-items-center">
+    <div class="d-flex align-items-center justify-content-between">
+      <i class="toggle-sidebar-btn pe-2">
+        <img src="assets/images/logo.png" alt="" width="100%">
+      </i>
+    </div>
+    <nav class="header-nav ms-auto">
+      <ul class="d-flex align-items-center">
+        <li class="nav-item dropdown pe-4">
+          <a class="nav-link dropdown-toggle text-white small" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown" aria-expanded="false">User</a>
+          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-arrow profile">
+            <li>
+              <a class="dropdown-item d-flex align-items-center" href="login.html">
+                <i class="fa fa-sign-out"></i>
+                <span>Logout</span>
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <!--Header end-->
+  <!--artical start-->
+  <!--Sidebar start-->
+  <!--left panel start-->
+  <div cy-include-html="assets/includes/left-panel.html"></div>
+  <!--left panel end-->
+  <!--Sidebar end-->
+  <!--Main start-->
+  <main id="main" class="main">
+    <section class="section">
+      <!--Table code start-->
+      <div class="row">
+        <h5>Home</h5>
+        <hr>
+        <div class="col-md-12">
+          <table class="table">
+            <thead>
+              <tr>
+                <th><input type="checkbox" class=""></th>
+                <th scope="col">S.No.</th>
+                <th scope="col">Position</th>
+                <th scope="col">Location</th>
+                <th scope="col">Experience</th>
+                <th scope="col">JoiningPeriod</th>
+                <th scope="col">Mail Id</th>
+                <th scope="col">No. of Position</th>
+                <th scope="col">Payroll</th>
+                <th scope="col">Valid Till</th>
+                <th scope="col">Phone Number</th>
+                <th scope="col">Budget</th>
+                <th scope="col">Description</th>
+                <th scope="col">Action</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th><input type="checkbox" class=""></th>
+                <th>1</th>
+                <td>.Net Developer</td>
+                <td>Mumbai</td>
+                <td>5 Years</td>
+                <td>Immediate</td>
+                <td>hr@cylsys.com</td>
+                <td>3</td>
+                <td>Contact</td>
+                <td>12/07/2023</td>
+                <td>7240889604</td>
+                <td>5,50000</td>
+                <td>Asp.Net....</td>
+                <td>
+                  <div class="row">
+                    <div class="col-md-1 switch">
+                      <label>
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span></label>
+
+                    </div>
+                    <div class="col-md-1"> <i class="fa fa-download"></i>
+                    </div>
+
+                  </div>
+                </td>
+              </tr>
+              <tr>
+                <th><input type="checkbox" class=""></th>
+                <th>2</th>
+                <td>Front-End Developer</td>
+                <td>pune</td>
+                <td>2 Years</td>
+                <td>1 Month</td>
+                <td>hr@cylsys.com</td>
+                <td>3</td>
+                <td>Permanent</td>
+                <td>12/07/2023</td>
+                <td>7240889604</td>
+                <td>5,00000</td>
+                <td>Angular+5....</td>
+                <td>
+                  <div class="row">
+                    <div class="col-md-1 switch">
+                      <label>
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span></label>
+
+                    </div>
+                    <div class="col-md-1"> <i class="fa fa-download"></i>
+                    </div>
+
+                  </div>
+                </td>
+                </td>
+              </tr>
+              <tr>
+                <th><input type="checkbox" class=""></th>
+                <th>3</th>
+                <td>Back-end developer</td>
+                <td>M.P.</td>
+                <td>3 Years</td>
+                <td>1 Month</td>
+                <td>hr@cylsys.com</td>
+                <td>3</td>
+                <td>Permanent</td>
+                <td>12/07/2023</td>
+                <td>7240889604</td>
+                <td>4,00000</td>
+                <td>Angular+5....</td>
+                <td>
+                  <div class="row">
+                    <div class="col-md-1 switch">
+                      <label>
+                        <input type="checkbox" checked>
+                        <span class="slider round"></span></label>
+
+                    </div>
+                    <div class="col-md-1"> <i class="fa fa-download"></i>
+                    </div>
+
+                  </div>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <!--Table code end-->
+    </section>
+
+  </main>
+  <!--Main end-->
+  <!--artical end-->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.3/jquery.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/main.js"></script>
+  <script src="assets/js/cy.js"></script>
+  <script src="assets/js/newscript.js"></script>
+</body>
+
+</html>
